@@ -1,3 +1,22 @@
+zip (3.0-6) unstable; urgency=low
+
+  * Added Multi-Arch: foreign.
+
+ -- Santiago Vila <sanvila@debian.org>  Sat, 30 Jun 2012 14:20:38 +0200
+
+zip (3.0-5) unstable; urgency=low
+
+  * Build with hardening flags. Closes: #673476.
+
+ -- Santiago Vila <sanvila@debian.org>  Mon, 21 May 2012 19:17:26 +0200
+
+zip (3.0-4) unstable; urgency=low
+
+  * zipnote.c: Close `in_file' instead of undefined file `x'.
+    Should make zipnote to work again. Closes: #628594.
+
+ -- Santiago Vila <sanvila@debian.org>  Thu, 09 Jun 2011 15:30:08 +0200
+
 zip (3.0-3) unstable; urgency=low
 
   * Added homepage field to control file.
